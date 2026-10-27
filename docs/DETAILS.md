@@ -6,7 +6,7 @@
 - Over December 2007 to September 2026 (walk-forward, net of 10 bps costs), Max Sharpe had the highest Sharpe ratio (0.63) and 60/40 came second (0.58), but **no strategy's Sharpe is statistically different from equal weight or 60/40**: every block-bootstrap p-value is 0.16 or higher, and Max Sharpe needed 238% annual turnover to get there.
 - For 1-day 99% VaR on a 60/40 portfolio, **filtered historical simulation was the only model whose exception rate passed the Kupiec test** (61 exceptions vs 53 expected, p = 0.273) and the only one never in the Basel red zone. Plain historical simulation (92) and normal VaR (144) were red in both 2008 and 2020.
 
-![Equity curves and drawdowns](figures/equity_drawdown.png)
+![Equity curves and drawdowns](../figures/equity_drawdown.png)
 
 ---
 
@@ -114,9 +114,9 @@ At 95%, all four models pass Kupiec (p from 0.057 to 0.504). Only EWMA (p = 0.21
 | EWMA (0.94) | 6 (yellow) | 10 (red) | 4 | 5 |
 | Filtered HS | 3 (green) | 6 (yellow) | 2 | 5 |
 
-![VaR vs realised returns](figures/var99_vs_returns.png)
+![VaR vs realised returns](../figures/var99_vs_returns.png)
 
-![VaR in 2008 and 2020](figures/var99_crises.png)
+![VaR in 2008 and 2020](../figures/var99_crises.png)
 
 Historical simulation and normal VaR use 500 equally weighted days, so they reacted to Lehman and COVID weeks late. Their exceptions bunched into the crisis, and that is why they fail the independence test. EWMA reacts quickly but uses a normal quantile, so it has too many exceptions at 99% even though it is fine at 95%. Filtered HS combines EWMA's speed with fat tails taken from the data.
 
