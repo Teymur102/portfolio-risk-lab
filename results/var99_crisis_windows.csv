@@ -1,0 +1,9 @@
+window,model,days,exceptions,expected,worst_day_loss,VaR_on_worst_day
+2008-09 (Lehman to Mar 2009 low),Historical sim,146,18,1.460000,0.052669,0.027005
+2020 (COVID crash),Historical sim,82,10,0.820000,0.073411,0.018612
+2008-09 (Lehman to Mar 2009 low),Normal,146,23,1.460000,0.052669,0.021339
+2020 (COVID crash),Normal,82,12,0.820000,0.073411,0.014906
+2008-09 (Lehman to Mar 2009 low),EWMA (0.94),146,4,1.460000,0.052669,0.076316
+2020 (COVID crash),EWMA (0.94),82,5,0.820000,0.073411,0.044357
+2008-09 (Lehman to Mar 2009 low),Filtered HS,146,2,1.460000,0.052669,0.100209
+2020 (COVID crash),Filtered HS,82,5,0.820000,0.073411,0.071760

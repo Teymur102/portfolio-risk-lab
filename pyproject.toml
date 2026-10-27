@@ -1,0 +1,10 @@
+[project]
+name = "portfolio-risk-lab"
+version = "1.0.0"
+description = "Out-of-sample comparison of portfolio construction methods and backtests of VaR/ES models"
+requires-python = ">=3.12"
+authors = [{ name = "Teymur Eyvazov" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

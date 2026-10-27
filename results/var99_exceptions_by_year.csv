@@ -1,0 +1,89 @@
+model,year,days,exceptions,zone_if_250d
+Historical sim,2005,69,1,partial year
+Historical sim,2006,251,3,green
+Historical sim,2007,251,11,red
+Historical sim,2008,253,22,red
+Historical sim,2009,252,0,green
+Historical sim,2010,252,0,green
+Historical sim,2011,252,5,yellow
+Historical sim,2012,250,0,green
+Historical sim,2013,252,0,green
+Historical sim,2014,252,4,green
+Historical sim,2015,252,5,yellow
+Historical sim,2016,252,4,green
+Historical sim,2017,251,0,green
+Historical sim,2018,251,8,yellow
+Historical sim,2019,252,2,green
+Historical sim,2020,253,11,red
+Historical sim,2021,252,0,green
+Historical sim,2022,251,8,yellow
+Historical sim,2023,250,0,green
+Historical sim,2024,252,2,green
+Historical sim,2025,250,5,yellow
+Historical sim,2026,187,1,partial year
+Normal,2005,69,1,partial year
+Normal,2006,251,5,yellow
+Normal,2007,251,15,red
+Normal,2008,253,30,red
+Normal,2009,252,1,green
+Normal,2010,252,0,green
+Normal,2011,252,8,yellow
+Normal,2012,250,0,green
+Normal,2013,252,1,green
+Normal,2014,252,5,yellow
+Normal,2015,252,9,yellow
+Normal,2016,252,6,yellow
+Normal,2017,251,0,green
+Normal,2018,251,24,red
+Normal,2019,252,5,yellow
+Normal,2020,253,13,red
+Normal,2021,252,0,green
+Normal,2022,251,12,red
+Normal,2023,250,0,green
+Normal,2024,252,2,green
+Normal,2025,250,6,yellow
+Normal,2026,187,1,partial year
+EWMA (0.94),2005,69,0,partial year
+EWMA (0.94),2006,251,3,green
+EWMA (0.94),2007,251,8,yellow
+EWMA (0.94),2008,253,6,yellow
+EWMA (0.94),2009,252,3,green
+EWMA (0.94),2010,252,8,yellow
+EWMA (0.94),2011,252,8,yellow
+EWMA (0.94),2012,250,4,green
+EWMA (0.94),2013,252,5,yellow
+EWMA (0.94),2014,252,7,yellow
+EWMA (0.94),2015,252,6,yellow
+EWMA (0.94),2016,252,3,green
+EWMA (0.94),2017,251,5,yellow
+EWMA (0.94),2018,251,9,yellow
+EWMA (0.94),2019,252,5,yellow
+EWMA (0.94),2020,253,10,red
+EWMA (0.94),2021,252,7,yellow
+EWMA (0.94),2022,251,7,yellow
+EWMA (0.94),2023,250,1,green
+EWMA (0.94),2024,252,6,yellow
+EWMA (0.94),2025,250,4,green
+EWMA (0.94),2026,187,3,partial year
+Filtered HS,2005,69,0,partial year
+Filtered HS,2006,251,3,green
+Filtered HS,2007,251,4,green
+Filtered HS,2008,253,3,green
+Filtered HS,2009,252,0,green
+Filtered HS,2010,252,3,green
+Filtered HS,2011,252,5,yellow
+Filtered HS,2012,250,2,green
+Filtered HS,2013,252,3,green
+Filtered HS,2014,252,4,green
+Filtered HS,2015,252,5,yellow
+Filtered HS,2016,252,2,green
+Filtered HS,2017,251,3,green
+Filtered HS,2018,251,3,green
+Filtered HS,2019,252,2,green
+Filtered HS,2020,253,6,yellow
+Filtered HS,2021,252,0,green
+Filtered HS,2022,251,1,green
+Filtered HS,2023,250,1,green
+Filtered HS,2024,252,6,yellow
+Filtered HS,2025,250,3,green
+Filtered HS,2026,187,2,partial year
